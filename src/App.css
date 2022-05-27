@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+.label {
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+
+.input {
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+}
+
+#products {
+  font-family: Poppins, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#products td,
+#products th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#products tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#products tr:hover {
+  background-color: #ddd;
+}
+
+#products th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+form {
+  margin: auto;
+  padding: 15px;
+  max-width: 400px;
+  align-content: center;
+}
+
+select {
+  margin-top: 20px;
+  padding: 10px;
+}
