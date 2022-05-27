@@ -96,7 +96,7 @@ function AddProduct() {
         .then(function (response) {
           console.log(response.data);
           alert("Uploaded Succesfully");
-          // navigate("/home");
+          navigate("/home");
         })
         .catch((error) => {
           console.log(error);
